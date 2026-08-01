@@ -1,8 +1,25 @@
 aid: summoners-arena
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/summoners-arena.png
 name: Summoners Arena
-description: 'Summoners Arena is a company surfaced as a portfolio company of pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Summoners Arena is a blockchain-based, multi-genre play-to-earn game
+  universe set in the antique lore of Summonia, where players summon, evolve, and battle
+  NFT heroes across PvP modes (Arena, Battleground) and PvE content (Dungeon, Campaign),
+  with an in-game NFT marketplace supporting hero renting, equipment collection, and
+  forging. Backed by Pantera Capital, it operates in the Web3 / crypto gaming sector.
+  This profile was surfaced as a portfolio-company lead and enriched by the API Evangelist
+  pipeline; the company publishes a consumer game and community surface but no public
+  developer API, OpenAPI, SDK, or well-known discovery documents were found.'
 url: https://raw.githubusercontent.com/api-evangelist/summoners-arena/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- Gaming
+- Web3
+- NFT
+- Blockchain
+- Play-to-Earn
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/summoners-arena-domain-security.yml
 - type: Website
   url: https://summonersarena.io/
+- type: Blog
+  url: https://saworld.substack.com/
+- type: Support
+  url: https://discord.gg/saworld
+- type: TermsOfService
+  url: https://summonersarena.io/terms-and-conditions.html
+- type: PrivacyPolicy
+  url: https://summonersarena.io/privacy-policy.html
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
